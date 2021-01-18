@@ -16,7 +16,8 @@
     do {
         echo $i;
         $i++;
-    } while ($i < 6);
+    }
+    while ($i < 6);
 
     echo "<br><br>";
 
