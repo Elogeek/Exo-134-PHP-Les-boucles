@@ -3,7 +3,7 @@
 // Premiere ligne
 $i = 1;
 
-while ($i < 6) {
+while($i < 6) {
     echo $i;
     $i++;
 }
@@ -17,7 +17,7 @@ do {
     echo $i;
     $i++;
 }
-while ($i < 6);
+while($i < 6);
 
 echo "<br><br>";
 
@@ -29,9 +29,9 @@ for ($i = 0; $i < 10; $i++) {
 echo "<br><br>";
 
 //Quatrieme ligne
-$colors = array("red", " ", "green", " ", "blue"," ", "yellow");
+$colors = array("red", "<br>", "green", "<br>", "blue","<br>", "yellow");
 
-foreach ($colors as $x) {
+foreach($colors as $x) {
     echo $x;
 }
 
