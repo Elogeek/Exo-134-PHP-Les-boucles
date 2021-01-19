@@ -22,17 +22,17 @@ while($i < 6);
 echo "<br><br>";
 
 //Troisieme ligne
-for ($i = 0; $i < 10; $i++) {
+for($i = 0; $i < 10; $i++) {
     echo $i;
 }
 
 echo "<br><br>";
 
 //Quatrieme ligne
-$colors = array("red", "<br>", "green", "<br>", "blue","<br>", "yellow");
+$colors = array("red", "green", "blue", "yellow");
 
-foreach($colors as $x) {
-    echo $x;
+foreach($colors as $color) {
+    echo $color."<br>";
 }
 
 echo "<br><br>";
