@@ -3,10 +3,10 @@
 // Premiere ligne
 $i = 1;
 
-while ($i < 6)
+while ($i < 6) {
     echo $i;
-$i++;
-
+    $i++;
+}
 //Deuxieme ligne
 
 echo "<br><br>";
@@ -29,7 +29,7 @@ for ($i = 0; $i < 10; $i++) {
 echo "<br><br>";
 
 //Quatrieme ligne
-$colors = array("red", "green", "blue", "yellow");
+$colors = array("red", " ", "green", " ", "blue"," ", "yellow");
 
 foreach ($colors as $x) {
     echo $x;
