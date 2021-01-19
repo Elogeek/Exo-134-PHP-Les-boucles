@@ -35,6 +35,7 @@ foreach ($colors as $x) {
     echo $x;
 }
 
+echo "<br><br>";
 
 
 
